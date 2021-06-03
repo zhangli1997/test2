@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/28/21 10:46:15 by Eclipse SUMO GUI Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../maps/intersection_outcontrol/circle.net.xml"/>
+        <route-files value="../maps/intersection_outcontrol/circle.rou.xml"/>
+        <additional-files value="../output/additional.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="../maps/intersection_outcontrol/sum.xml"/>
+        <tripinfo-output value="../maps/intersection_outcontrol/tripinfo.xml"/>
+        <statistic-output value="../maps/intersection_outcontrol/statistic.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="none"/>
+        <scale value="1"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="53152"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="../maps/intersection_outcontrol/gui.settings.xml"/>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+        <tracker-interval value="0.1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/summary_file.xsd">
+    <step time="0.00" loaded="1" inserted="1" running="1" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="0" stopped="0" meanWaitingTime="0.00" meanTravelTime="-1.00" meanSpeed="12.11" meanSpeedRelative="0.44" duration="758393255"/>
+</summary>
